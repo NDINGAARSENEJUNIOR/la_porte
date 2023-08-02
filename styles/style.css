@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+     /* barre de navigation */
+nav{
+    background-color: violet;
+    height: 10vh;
+    padding: 15px;
+}
+    /* mon header    */
+header{
+    border: 1px dashed black;
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left:50px;
+}
+    /* main */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 100px;
+    gap: 50px;
+}
+h1{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+    /* footer */
+footer{
+    background-color: violet;
+    height: 10vh;
+    padding: 15px;
+}
